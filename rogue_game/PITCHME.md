@@ -2,19 +2,6 @@
  produced by **tanacchi**
 
 ---
-@snap[north-west]
-## 目次
-@snapend
-
-1. 自己紹介
-2. rogue_game とは
-3. 動機
-4. コンセプト
-5. 開発状況
-6. 進捗
-7. 今後の展望
-8. さいごに
----
 
 ## 自己紹介
 
