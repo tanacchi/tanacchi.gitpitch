@@ -50,6 +50,7 @@ Rogue-like Game だよ〜
 ロボット飽きたわ
 
 ---
+@transition[none]
 @snap[north-west]
 ### 動機
 @snapend
