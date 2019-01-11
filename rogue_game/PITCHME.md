@@ -13,6 +13,15 @@
 @snap[west]
 <img src="rogue_game/assets/tanacchi.jpeg" />
 @snapend
+
+@snap[east]
+  田中 大揮 (tanacchi)  
+  九州工業大学 総合システム工学科 B3  
+  自律移動ロボット開発プロジェクト代表 (2018年度)
+  C++ 初心者
+  @fa[twitter icon-size2]q111026d
+  @fa[github  icon-size2]tanacchi
+@snapend
 ---
 
 ## rogue_game とは
