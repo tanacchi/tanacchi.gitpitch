@@ -19,9 +19,10 @@
 田中 大揮 ( *tanacchi* )<br><br>
 
 九州工業大学 B3  
-ロボット開発プロジェクト<br><br>
+ロボット開発プロジェクト  
+@size[0.5em](つくばチャレンジに参加)<br><br>
 
-C++ 機械学習 初心者  <br><br>
+C++ 機械学習 Rails 初心者  <br><br>
 
 @fa[twitter icon-size2] *q111026d*　@fa[github  icon-size2] *tanacchi*  
 @snapend
@@ -40,6 +41,13 @@ Rogue-like Game だよ〜
 ---
 
 ## 動機
+
+---
+@snap[north-west]
+### 動機
+@snapend
+
+ロボット飽きたわ
 
 ---
 @snap[north-west]
