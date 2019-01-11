@@ -10,8 +10,9 @@
 ### 自己紹介
 @snapend
 
-こんなひとです〜
-
+@snap[west]
+<img src="rogue_game/assets/tanacchi.jpeg" />
+@snapend
 ---
 
 ## rogue_game とは
