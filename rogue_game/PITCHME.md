@@ -35,8 +35,21 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### rogue_game とは
 @snapend
 
-Rogue-like Game だよ〜  
-~~ラミィの大冒険~~は知ってるかな
+*tanacchi* が **C++** で１からつくる  
+ローグライクゲーム
+
+---
+@snap[north-west]
+### rogue_game とは
+@snapend
+
+ラ○ィの大冒険
+
+---
+@snap[north-west]
+### rogue_game とは
+@snapend
+
 
 ---
 
@@ -73,7 +86,9 @@ Rogue-like Game だよ〜
 ### コンセプト
 @snapend
 
-ロマンあふれる感じ + 取っつきやすさ + オジリナリティ
+* ロマンあふれる感じ   |
+* 取っつきやすさ  |
+* オジリナリティ  |
 
 ---
 
