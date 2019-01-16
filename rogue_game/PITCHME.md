@@ -50,6 +50,14 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### rogue_game とは
 @snapend
 
+＊❍ミィの大冒険の画像＊
+
+---
+@snap[north-west]
+### rogue_game とは
+@snapend
+
+<img src="rogue_game/assets/tanacchi.jpeg" />
 
 ---
 
@@ -75,7 +83,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 動機
 @snapend
 
-( ˘⊖˘) 。o( １からシステムを構築してみたい )
+( ˘⊖˘) 。o( （ある程度の規模の）ゲームシステムを（C++ で）構築してみたい )
 
 ---
 
@@ -86,7 +94,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### コンセプト
 @snapend
 
-* ロマンあふれる感じ   |
+* （伝統的な）ロマンあふれる感じ   |
 * 取っつきやすさ  |
 * オジリナリティ  |
 
@@ -100,12 +108,19 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 ひとり Issue
+
+<img src="rogue_game/assets/Issues.png" />
+<img src="rogue_game/assets/IssueContent.png" />
+---
+@snap[north-west]
+### 開発状況
+@snapend
+
+
 ひとり Project 
 
-なんでもこいこい
-
+<img src="rogue_game/assets/ToDoList.png" />
 ---
-
 ## 進捗
 
 ---
@@ -113,7 +128,58 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 進捗
 @snapend
 
-commit 行数
+512 commit  
+1748 行  
+
+（まだまだ駆け出し）
+
+---
+@snap[north-west]
+### 進捗
+@snapend
+
+* マップ(json 形式)の読み込み | 
+* プレイヤー操作  | 
+* アイテム取得＆使用  |
+
+---
+
+---
+@snap[north-west]
+### なぜ json ?
+@snapend
+
+```json
+...
+ {
+     "type": "floor"
+ },
+ {
+     "type": "door"
+ },
+ {
+     "type": "path"
+ },
+...
+```
+
+```json
+...
+ {
+     "index": "693",
+     "type": "gold",
+     "amount": "100"
+ },
+...
+```
+---
+@snap[north-west]
+### なぜ json ?
+@snapend
+
+* 要素の属性・パラメータを記述できる  | 
+* 依存パッケージを最小限に |
+  - 依存パッケージは Boost と ncurses のみ
 
 ---
 
@@ -123,6 +189,12 @@ commit 行数
 @snap[north-west]
 ### 今後の展望
 @snapend
+
+* モンスター（敵）の実装 |
+* マップ自動生成 |
+* より美しく、拡張しやすい構造に | 
+   - 隠し通路 |
+   - 特殊攻撃 |
 
 まだまだこれから
 
@@ -135,4 +207,4 @@ commit 行数
 ### さいごに
 @snapend
 
-GitPitch よさげ
+GitPitch よさげです
