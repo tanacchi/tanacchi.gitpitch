@@ -40,14 +40,14 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 ラ○ィの大冒険
-<img src="rogue_game/assets/rami.jpg" />
+<img src="rogue_game/assets/rami.jpg" height="80%" width="80%" />
 
 ---
 @snap[north-west]
 ### rogue_game とは
 @snapend
 
-<img src="rogue_game/assets/rami_playing.jpg" />
+<img src="rogue_game/assets/rami_playing.jpg" height="80%" width="80%" />
 
 ---
 @snap[north-west]
@@ -55,8 +55,9 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 
-コンピューターRPG 黎明期に誕生した、テキストユーザーインターフェースの探索型RPG。
-<img src="rogue_game/assets/rogue_wiki.png" />
+コンピューターRPG 黎明期に誕生した、  
+テキストユーザーインターフェースの探索型RPG。
+<img src="rogue_game/assets/rogue_wiki.png" width="80%" height="80%" />
 
 ---
 
