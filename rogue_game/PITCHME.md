@@ -79,7 +79,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 動機
 @snapend
 
-( ˘⊖˘) 。o( （ある程度の規模の）ゲームシステムを（C++ で）構築してみたい )
+( ˘⊖˘) 。o( （ある程度の規模の）**ゲームシステムを**（C++ で）**構築してみたい** )
 
 ---
 
@@ -91,7 +91,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 @size[0.5em](グラフィックには興味がないので)  
-伝統的なローグライクゲームと同じ
+伝統的なローグライクゲームと同じ  
 **テキストユーザーインターフェース**
 
 ---
@@ -118,6 +118,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 * （伝統的な）ロマンあふれる感じ  
 * 取っつきやすさ  |
 * オジリナリティ  |
+* **美しい設計**
 
 ---
 
@@ -130,7 +131,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 
 
 <img src="rogue_game/assets/Issues.png" />
-### ひとり Issue
+ひとり Issue
 
 ---
 @snap[north-west]
@@ -139,7 +140,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 
 
 <img src="rogue_game/assets/IssueContent.png" />
-### ひとり Issue
+ひとり Issue
 
 ---
 @snap[north-west]
@@ -147,7 +148,23 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 <img src="rogue_game/assets/ToDoList.png" />
-### ひとり Project 
+ひとり Project 
+
+---
+@snap[north-west]
+### 開発状況
+@snapend
+
+<img src="rogue_game/assets/PullRequest.png" />
+ひとり Project 
+
+---
+@snap[north-west]
+### 開発状況
+@snapend
+
+<img src="rogue_game/assets/Wiki.png" />
+誰も見ない Wiki 
 
 ---
 ## 進捗
