@@ -32,7 +32,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 *tanacchi* が **C++** で１からつくる  
-ローグライクゲーム
+@color[yellow](ローグライクゲーム)
 
 ---
 @snap[north-west]
@@ -52,6 +52,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snap[north-west]
 ### rogue_game とは
 @snapend
+
 
 <img src="rogue_game/assets/rogue_wiki.png" />
 
@@ -79,7 +80,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 動機
 @snapend
 
-( ˘⊖˘) 。o( （ある程度の規模の）**ゲームシステムを**（C++ で）**構築してみたい** )
+( ˘⊖˘) 。o( （ある程度の規模の）@color[yellow](**ゲームシステムを**)（C++ で）**構築してみたい** )
 
 ---
 
@@ -92,7 +93,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 
 @size[0.8em](グラフィックには興味がないので)  
 伝統的なローグライクゲームと同じ  
-**テキストユーザーインターフェース**
+@color[yellow](**テキストユーザーインターフェース**)
 
 ---
 @snap[north-west]
@@ -103,17 +104,17 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 操作性が良くない
 
 ---
-@snap[north-west]
-### コンセプト
-@snapend
 
-コマンド | 動作
---- | ---
-`r` | 巻物を読む
-`w` |  武器を手に構える
-`q` | 飲み薬を飲む
+コマンド | 動作  
+--- | ---  
+r | 巻物を読む  
+w | 武器を手に構える  
+t | 所持品を投げる  
+q | 飲み薬を飲む  
+P | 指輪をはめる  
+\> | 階段を降りる  
 
-矢印キーと決定キーで足りるじゃん・・・  
+矢印キーと決定キー ＋α で完結させたい
 
 ---
 @snap[north-west]
@@ -121,9 +122,9 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 * （伝統的な）ロマンあふれる感じ  
-* 取っつきやすさ  |
-* オジリナリティ  |
-* **美しい設計**
+* 取っつきやすさ  
+* オジリナリティ  
+* @size[1.5em](美しい設計)  |
 
 ---
 
@@ -135,8 +136,9 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 
-<img src="rogue_game/assets/Issues.png" />
 ひとり Issue
+<img src="rogue_game/assets/Issues.png" width="80%" height="80%" />
+
 
 ---
 @snap[north-west]
@@ -144,32 +146,36 @@ C++ 機械学習 Rails 初心者  <br><br>
 @snapend
 
 
-<img src="rogue_game/assets/IssueContent.png" />
 ひとり Issue
+<img src="rogue_game/assets/IssueContent.png" width="80%" height="80%" />
+
 
 ---
 @snap[north-west]
 ### 開発状況
 @snapend
 
-<img src="rogue_game/assets/ToDoList.png" />
 ひとり Project 
+<img src="rogue_game/assets/ToDoList.png" width="80%" height="80%" />
+
 
 ---
 @snap[north-west]
 ### 開発状況
 @snapend
 
-<img src="rogue_game/assets/PullRequest.png" />
-ひとり Project 
+ひとり Pull Request 
+<img src="rogue_game/assets/PullRequest.png" width="80%" height="80%" />
+
 
 ---
 @snap[north-west]
 ### 開発状況
 @snapend
 
-<img src="rogue_game/assets/Wiki.png" />
 誰も見ない Wiki 
+<img src="rogue_game/assets/Wiki.png" width="80%" height="80%" />
+
 
 ---
 ## 進捗
@@ -189,7 +195,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 進捗
 @snapend
 
-* マップ(json 形式)の読み込み | 
+* マップ(json 形式)の読み込み 
 * プレイヤー操作  | 
 * アイテム取得＆使用  |
 
@@ -226,8 +232,8 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### なぜ json ?
 @snapend
 
-* 要素の属性・パラメータを記述できる  | 
-* 依存パッケージを最小限に |
+* 要素の属性・パラメータを記述できる
+* 依存パッケージを最小限にできる |
   - 依存パッケージは Boost と ncurses のみ
 
 ---
@@ -239,13 +245,11 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 今後の展望
 @snapend
 
-* モンスター（敵）の実装 |
+* モンスター（敵）の実装 
 * マップ自動生成 |
 * より美しく、拡張しやすい構造に | 
    - 隠し通路 |
    - 特殊攻撃 |
-
-まだまだこれから
 
 ---
 
