@@ -6,10 +6,6 @@
 ## 自己紹介
 
 ---
-@snap[north-west]
-### 自己紹介
-@snapend
-
 @snap[east]
 <img src="rogue_game/assets/tanacchi.jpeg" />
 @snapend
@@ -57,7 +53,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### rogue_game とは
 @snapend
 
-<img src="rogue_game/assets/tanacchi.jpeg" />
+<img src="rogue_game/assets/rogue_wiki.jpeg" />
 
 ---
 
@@ -94,7 +90,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### コンセプト
 @snapend
 
-* （伝統的な）ロマンあふれる感じ   |
+* （伝統的な）ロマンあふれる感じ  
 * 取っつきやすさ  |
 * オジリナリティ  |
 
@@ -107,19 +103,27 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### 開発状況
 @snapend
 
-ひとり Issue
 
 <img src="rogue_game/assets/Issues.png" />
-<img src="rogue_game/assets/IssueContent.png" />
+### ひとり Issue
+
 ---
 @snap[north-west]
 ### 開発状況
 @snapend
 
 
-ひとり Project 
+<img src="rogue_game/assets/IssueContent.png" />
+### ひとり Issue
+
+---
+@snap[north-west]
+### 開発状況
+@snapend
 
 <img src="rogue_game/assets/ToDoList.png" />
+### ひとり Project 
+
 ---
 ## 進捗
 
@@ -141,8 +145,6 @@ C++ 機械学習 Rails 初心者  <br><br>
 * マップ(json 形式)の読み込み | 
 * プレイヤー操作  | 
 * アイテム取得＆使用  |
-
----
 
 ---
 @snap[north-west]
