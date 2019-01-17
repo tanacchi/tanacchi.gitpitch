@@ -54,9 +54,8 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### rogue_game とは
 @snapend
 
-
-コンピューターRPG 黎明期に誕生した、  
-テキストユーザーインターフェースの探索型RPG。
+<br>
+@size[0.8em](コンピューターRPG 黎明期に誕生した、 <br> テキストユーザーインターフェースの探索型RPG。)
 <img src="rogue_game/assets/rogue_wiki.png" width="80%" height="80%" />
 
 ---
