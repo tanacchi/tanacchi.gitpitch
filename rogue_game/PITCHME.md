@@ -53,7 +53,7 @@ C++ 機械学習 Rails 初心者  <br><br>
 ### rogue_game とは
 @snapend
 
-<img src="rogue_game/assets/rogue_wiki.jpeg" />
+<img src="rogue_game/assets/rogue_wiki.png" />
 
 ---
 
@@ -84,6 +84,31 @@ C++ 機械学習 Rails 初心者  <br><br>
 ---
 
 ## コンセプト
+
+---
+@snap[north-west]
+### コンセプト
+@snapend
+
+@size[0.5em](グラフィックには興味がないので)  
+伝統的なローグライクゲームと同じ
+**テキストユーザーインターフェース**
+
+---
+@snap[north-west]
+### コンセプト
+@snapend
+
+伝統的なローグライクゲームの欠点
+### 操作性が良くない
+
+コマンド | 動作
+--- | ---
+`r` | 巻物を読む
+`w` |  武器を手に構える
+`q` | 飲み薬を飲む
+
+矢印キーと決定キーで足りるじゃん・・・ | 
 
 ---
 @snap[north-west]
