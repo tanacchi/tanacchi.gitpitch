@@ -129,47 +129,47 @@
 さいごに
 
 ---
-@traansition[fade]
+@transition[fade]
 
 プログラミングのセンスとは
 
 ---
-@traansition[fade]
+@transition[fade]
 
 僕には向いてないと思っていました．
 
 ---
-@traansition[fade]
+@transition[fade]
 
 どれだけ好きになれて  
 どれだけ時間をかけられるか
 
 ---
-@traansition[fade]
+@transition[fade]
 
 楽しい、と感じられたなら  
 あなたには十分センスがあります．
 
 ---
-@traansition[fade]
+@transition[fade]
 
 プログラミングは  
 やり始めが一番大変...
 
 ---
-@traansition[fade]
+@transition[fade]
 
 どんどん書いて  
 さっさと慣れてください
 
 ---
-@traansition[fade]
+@transition[fade]
 
 プログラミングの楽しさを
 共有できる仲間って
 実は貴重だぞ
 
 ---
-@traansition[fade]
+@transition[fade]
 
 存分に楽しもう
