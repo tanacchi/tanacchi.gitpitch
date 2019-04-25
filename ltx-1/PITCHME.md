@@ -50,6 +50,8 @@
 ---
 
 僕の師匠達
+<img src="ltx-1/assets/yamacir-kit.jpeg" />
+<img src="ltx-1/assets/forno.png" />
 
 ---
 
