@@ -48,6 +48,16 @@
   - Rails システム開発担当  
 
 ---
+@transition[none]
+
+<img src="ltx-1/assets/my-introduction.png" />
+
+---
+@transition[none]
+
+<img src="ltx-1/assets/my-introduction-cross.png" />
+
+---
 
 ### 僕の師匠達
 <img src="ltx-1/assets/yamacir-kit.jpeg" width="256" height="256" />
