@@ -50,8 +50,8 @@
 ---
 
 僕の師匠達
-<img src="ltx-1/assets/yamacir-kit.jpeg" />
-<img src="ltx-1/assets/forno.png" />
+<img src="ltx-1/assets/yamacir-kit.jpeg" width="128" height="128" />
+<img src="ltx-1/assets/forno.png"        width="128" height="128" />
 
 ---
 
@@ -109,7 +109,7 @@
 
 ---
 
-（自分のスキルの8割はゲーム開発で培ったものです）
+@size[0.8em](（自分のスキルの8割はゲーム開発で培ったものです）)
 
 ---
 
