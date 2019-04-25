@@ -48,7 +48,7 @@
   - Rails システム開発担当  
 
 ---
-@transition[none]
+@transition[fade]
 
 <img src="ltx-1/assets/my-introduction.png" />
 
