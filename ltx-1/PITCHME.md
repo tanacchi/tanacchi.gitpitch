@@ -144,7 +144,7 @@
 * マウス操作，キーボード入力もらくらく！ |
 * 規模の大きい開発には不向き |
 
-<img src="ltx-1/assets/processing.png">
+<img src="ltx-1/assets/processing.png" width="240" height="240" border="0"  >
 
 ---
 
