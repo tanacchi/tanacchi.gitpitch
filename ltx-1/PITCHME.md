@@ -3,11 +3,6 @@
 
 ---
 
-スライド枚数： 38枚
-所要時間： 5分
-
----
-
 ## 自己紹介
 
 ---
@@ -18,45 +13,12 @@
 
 @snap[west]
 <br>
-田中 大揮 ( *tanacchi* )<br><br>
+*tanacchi* <br><br>
 
-総合システム B4  
+総シス B4  
 
 @fa[twitter icon-size2] *q111026d*　@fa[github  icon-size2] *tanacchi*  
 @snapend
-
----
-
-* 北九州市内 在住（実家暮らし）
-* 九州国際大学付属高校 出身  |
-
----
-
-* 好きな食べ物：もつ鍋，ラーメン 
-* 好きなゲーム：PUBG MOBILE |
-* 好きな言語：C++ |
-
----
-
-* 自律移動ロボット開発プロジェクト:`CIR-KIT`   
-  - @size[0.7em](ソフトウェア開発担当( 2017 ~ ))
-  - @size[0.7em](プロジェクト代表    ( 2018 ~ ))
-
----
-@transition[fade]
-
-<img src="ltx-1/assets/my-introduction.png" />
-
----
-@transition[none]
-
-<img src="ltx-1/assets/my-introduction-cross.png" />
-
----
-
-### 僕の師匠達
-<img src="ltx-1/assets/yamacir-kit.jpeg" width="256" height="256" />
-<img src="ltx-1/assets/forno.png"        width="256" height="256" />
 
 ---
 
