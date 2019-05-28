@@ -1,0 +1,11 @@
+# theme: sky
+
+slide-number: true
+
+footnote: "© 2019 tanacchi"
+
+highlight: monokai
+
+transition: slide
+
+# logo: rogue_game/assets/logo.png
