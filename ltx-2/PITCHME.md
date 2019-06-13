@@ -166,7 +166,7 @@ Github を活用すれば更にいいことが！
 
 ---
 
-<img src="ltx-2/assets/traffic.png" />
+<img src="ltx-2/assets/traffic.png" height="400" />
 
 ---
 
@@ -177,3 +177,8 @@ Github を活用すれば更にいいことが！
 <img src="ltx-2/assets/todo-list.png" />
 
 ---
+
+* 開発効率が激烈に向上する
+* チーム開発のノウハウが身につく
+* 自分のスキルをアピールできる
+
