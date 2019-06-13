@@ -92,19 +92,19 @@ github とは
 
 ---
 
-<img src="ltx-2/assets/kaisya_man.png" width="240" height="240" />
+<img src="ltx-2/assets/kaisya_man.png" width="320" height="320" />
 
 ---
 
-<img src="ltx-2/assets/kaisya_komaru_man.png" width="240" height="240" />
+<img src="ltx-2/assets/kaisya_komaru_man.png" width="320" height="320" />
 
 ---
 
-<img src="ltx-2/assets/kaisya_man_bad.png" width="240" height="240" />
+<img src="ltx-2/assets/kaisya_man_bad.png" width="320" height="320" />
 
 ---
 
-<img src="ltx-2/assets/bakuhatsu.png" width="240" height="240" />
+<img src="ltx-2/assets/bakuhatsu.png" width="320" height="320" />
 
 ---
 
