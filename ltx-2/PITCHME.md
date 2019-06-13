@@ -73,6 +73,19 @@ github とは
 
 ケース１：複数人での作業（保存編）
 
+
+---
+
+<img src="ltx-2/assets/edit_no_git_1.png" />
+
+---
+
+<img src="ltx-2/assets/edit_no_git_2.png" />
+
+---
+
+<img src="ltx-2/assets/edit_no_git_wasted.png" />
+
 ---
 
 ケース２：やりなおしてえ
@@ -86,3 +99,14 @@ github とは
 ケース４：パソコンが爆破された
 
 ---
+
+---
+
+解決させるあれやこれやの問題
+
+---
+
+Github を活用すれば更にいいことが！
+
+---
+
