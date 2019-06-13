@@ -92,11 +92,23 @@ github とは
 
 ---
 
+<img src="ltx-2/assets/kaisya_man.png" width="240" height="240" />
+
+---
+
+<img src="ltx-2/assets/kaisya_komaru_man.png" width="240" height="240" />
+
+---
+
+<img src="ltx-2/assets/kaisya_man_bad.png" width="240" height="240" />
+
+---
+
 ケース３：機能追加時の比較検討
 
 ---
 
-ケース４：パソコンが爆破された
+ケース４：パソコンが壊れたorデータが飛んだ
 
 ---
 
