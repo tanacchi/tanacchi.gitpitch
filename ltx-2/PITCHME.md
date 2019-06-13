@@ -104,6 +104,10 @@ github とは
 
 ---
 
+<img src="ltx-2/assets/bakuhatsu.png" width="240" height="240" />
+
+---
+
 ケース３：機能追加時の比較検討
 
 ---
