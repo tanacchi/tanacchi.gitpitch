@@ -32,6 +32,10 @@ Git 使ってますか？
 
 ---
 
+<img src="ltx-2/assets/git.png" />
+
+---
+
 人類は Git を使うべきである
 
 ---
@@ -55,6 +59,8 @@ Git とは
 
 github とは
 
+<img src="ltx-2/assets/github.png" />
+
 ---
 
 コミットとは
@@ -77,6 +83,6 @@ github とは
 
 ---
 
-ケース４：パソコンが爆破
+ケース４：パソコンが爆破された
 
 ---
