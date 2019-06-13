@@ -126,6 +126,16 @@ github とは
 
 ---
 
+<img src="ltx-2/assets/computer_kowasu_man.png" width="320" height="320" />
+
+---
+
+<img src="ltx-2/assets/rm-safe.png" />
+
+---
+
+<img src="ltx-2/assets/rm-danger.png" />
+
 ---
 
 解決させるあれやこれやの問題
