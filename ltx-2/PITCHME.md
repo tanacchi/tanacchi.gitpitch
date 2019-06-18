@@ -78,19 +78,19 @@ github とは
 
 ---
 
-<img src="ltx-2/assets/git.png" />
+<img src="ltx-2/assets/commit.png" />
 
 ---
 
-<img src="ltx-2/assets/git.png" />
+<img src="ltx-2/assets/two-commits.png" />
 
 ---
 
-<img src="ltx-2/assets/git.png" />
+<img src="ltx-2/assets/funca-commit.png" />
 
 ---
 
-<img src="ltx-2/assets/git.png" />
+<img src="ltx-2/assets/funcb-commit.png" />
 
 ---
 
@@ -120,6 +120,10 @@ github とは
 ---
 
 Git を使えば・・
+
+---
+
+<img src="ltx-2/assets/edit_git_2.png" />
 
 ---
 
