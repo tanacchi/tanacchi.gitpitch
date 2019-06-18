@@ -19,8 +19,11 @@
 
 ---
 
-* 好きなゲーム：PUBG Mobile, WarRobots
-* 好きな食べ物：もつ鍋
+* 好きなゲーム：
+  - PUBG Mobile
+  - WarRobots
+* 好きな食べ物：
+  - もつ鍋
 
 ---
 
@@ -55,19 +58,29 @@ Git を使いこなせば
 
 Git とは
 
+@size[0.8em](簡単に言うと)  
+ファイルの編集と進捗を管理するツール
+
 ---
 
 github とは
 
-<img src="ltx-2/assets/github.png" />
+<img src="ltx-2/assets/github.png" width="512" height="190" />
 
 ---
 
 コミットとは
 
+編集の「歴史」の単位  
+開発が進むに連れ「歴史」の積み重なっていく
+
 ---
 
 ブランチ
+
+「世界線」のこと  
+
+<img src="ltx-2/assets/network.png" />
 
 ---
 
