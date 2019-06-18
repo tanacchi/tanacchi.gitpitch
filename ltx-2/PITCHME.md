@@ -22,6 +22,8 @@
 * 好きなゲーム：
   - PUBG Mobile
   - WarRobots
+
+
 * 好きな食べ物：
   - もつ鍋
 
@@ -73,6 +75,22 @@ github とは
 
 編集の「歴史」の単位  
 開発が進むに連れ「歴史」の積み重なっていく
+
+---
+
+<img src="ltx-2/assets/git.png" />
+
+---
+
+<img src="ltx-2/assets/git.png" />
+
+---
+
+<img src="ltx-2/assets/git.png" />
+
+---
+
+<img src="ltx-2/assets/git.png" />
 
 ---
 
