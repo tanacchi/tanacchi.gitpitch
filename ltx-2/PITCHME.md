@@ -150,6 +150,14 @@ Git を使えば・・
 
 ---
 
+<img src="ltx-2/assets/gitco.png" />
+
+---
+
+<img src="ltx-2/assets/miki.png" />
+
+---
+
 ケース３：機能追加時の比較検討
 
 ---
