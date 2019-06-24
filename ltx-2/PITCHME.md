@@ -158,14 +158,6 @@ Git を使えば・・
 
 ---
 
-ケース３：機能追加時の比較検討
-
----
-
-Git を使えば・・
-
----
-
 ケース４：パソコンが壊れたorデータが飛んだ
 
 ---
@@ -183,6 +175,14 @@ Git を使えば・・
 ---
 
 Git を使えば・・
+
+---
+
+<img src="ltx-2/assets/rogue-github.png" />
+
+---
+
+<img src="ltx-2/assets/gitclone.png" />
 
 ---
 
@@ -214,7 +214,7 @@ Github を活用すれば更にいいことが！
 
 ---
 
-<img src="ltx-2/assets/traffic.png" height="400" />
+<img src="ltx-2/assets/traffic.png" height="600" />
 
 ---
 
