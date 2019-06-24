@@ -152,6 +152,7 @@ Git を使えば・・
 Git を使えば・・
 
 ---
+コマンド１発で(前のコミットの状態に)戻せる！
 
 <img src="ltx-2/assets/gitco.png" />
 
