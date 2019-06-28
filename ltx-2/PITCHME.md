@@ -57,10 +57,14 @@ Git を使いこなせば
 
 ---
 
+「ブランチ」の説明は割愛します．
+
+---
+
 ### Git とは
 
 @size[0.8em](簡単に言うと)  
-ファイルの編集と進捗を管理するツール
+ファイルの@color[red](編集)と@color[red](進捗)を管理するツール
 
 ---
 
@@ -92,6 +96,10 @@ Git をいい感じに使うための Web サービス
 ---
 
 <img src="ltx-2/assets/funcb-commit.png" />
+
+---
+
+（ブランチの話は割愛します）
 
 ---
 
@@ -163,6 +171,14 @@ Git を使えば・・
 コマンド１発で(前のコミットの状態に)戻せる！
 
 <img src="ltx-2/assets/gitco.png" />
+
+---
+
+<img src="ltx-2/assets/funcb-commit.png" />
+
+---
+
+<img src="ltx-2/assets/funca-commit.png" />
 
 ---
 
