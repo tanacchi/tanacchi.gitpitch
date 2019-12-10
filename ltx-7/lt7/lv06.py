@@ -1,4 +1,13 @@
-from reader import read  # Modified
+from reader import read
+
+
+def evaluate(src):
+    if src[0] == '+':
+        return src[1] + src[2]
+    elif src[0] == '-':
+        return src[1] - src[2]  # Step 2
+    else:
+        return src
 
 
 ######## main ########
@@ -6,9 +15,9 @@ from reader import read  # Modified
 print("Welcome to lt7 !!\n")
 
 while True:
-    src = read()  # Modified
+    result = evaluate(read())
 
     print("-"*10)
-    print("  {} <{}>".format(src, type(src).__name__))
+    print("  {}  <{}>".format(result, type(result).__name__))
     print("-"*10)
     print()
