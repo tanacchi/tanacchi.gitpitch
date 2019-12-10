@@ -7,25 +7,31 @@
 
 format | type
 --- | ---
-`[0-9]+*` | int
+`[+-]?[0-9]+` | int
+`[+-]?[0-9]+\.[0-9]*` | float
 `#true`\|`#false` | bool
 other | str
 
-## functions
+## keywords
 
 name |first appearance | example
 --- | --- | ---
-`+` | level 08 | `(+ 3 4)` -> `7`
-`-` | level 08 | `(- 8 5)` -> `3`
-`define` | level 09 | `(define x 3)` (x = 3)
-`lambda` | level 13 | `(lambda (varg) expr)` -> `<lambda-function>`
-`eq?` | level 14 | `(eq? 0 0)` -> `True`
-`if` | level 15 | `(if condition true_value false_value)`
-`quote` | level 16 | `(quote (0 1 2))` -> `(0 1 2)`
-`car` | level 17-1 | `(car x)` -> `x[0]`
-`cdr` | level 17-2 | `(cdr x)` -> `x[1:]`
-`cons` | level 17-3 | `(cons new x)` -> `(new x[0] x[1] ..)`
+`define` | level 07 | `(define x 3)` (x = 3)
+`lambda` | level 10 | `(lambda (varg) expr)` -> `<lambda-function>`
+`eq?` | level 11 | `(eq? 0 0)` -> `True`
+`if` | level 12 | `(if condition true_value false_value)`
+`quote` | level 13 | `(quote (0 1 2))` -> `(0 1 2)`
+`car` | level 14-1 | `(car x)` -> `x[0]`
+`cdr` | level 14-2 | `(cdr x)` -> `x[1:]`
+`cons` | level 14-3 | `(cons new x)` -> `(new x[0] x[1] ..)`
 
+## built-in variables and functions
+name | first appearance | example
+--- | --- | ---
+`+` | level 06 | `(+ 3 4)` -> `7`
+`-` | level 06 | `(- 8 5)` -> `3`
+`#true` | level 12 | `True`
+`#false` | level 12 | `False`
 
 ## level
 
@@ -34,24 +40,19 @@ level | description
 level 01 | あいさつ
 level 02 | プロンプトとループ
 level 03 | トークナイザ
-level 04 | パーサ(1) 
-level 05 | パーサ(2) 
-level 06 | パーサ(完成版) 
-level 07 | 評価器(evaluate 関数)
-level 08 | 加減算
-level 09 | 変数定義
-level 10 | 変数の参照
-level 11 | 数字はそのまま評価
-level 12 | 定義済み関数呼び出し
-level 13 | 関数定義 (add1 実装)
-level 14 | 比較 (zero? 実装)
-level 15 | 分岐 (not 実装)
-level 16 | quote と list (null?, length 実装)
-level 17 | リスト操作 (reverse 実装)
-
+level 04 | パーサ
+level 05 | 評価器(evaluate 関数)
+level 06 | 加減算
+level 07 | 変数定義
+level 08 | 変数の参照
+level 09 | 関数呼び出し
+level 10 | 関数定義 (add1, sum-of-three 実装)
+level 11 | 比較 (zero? 実装)
+level 12 | 分岐 (not 実装)
+level 13 | quote と list (null?, length 実装)
+level 14 | リスト操作 (sum, reverse 実装)
 
 ## sample code
-
 ### arithmetic operation
 ```lisp
 (+ 3 4)  ;-> 7
