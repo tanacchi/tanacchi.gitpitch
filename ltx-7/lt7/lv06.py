@@ -9,6 +9,6 @@ while True:
     src = read()  # Modified
 
     print("-"*10)
-    print("  {} ({})".format(src, type(src)))
+    print("  {} <{}>".format(src, type(src).__name__))
     print("-"*10)
     print()

@@ -14,6 +14,6 @@ while True:
     token = tokenize(input_str)
 
     print("-"*10)
-    print("  {} ({})".format(token, type(token)))
+    print("  {} <{}>".format(token, type(token).__name__))
     print("-"*10)
     print()

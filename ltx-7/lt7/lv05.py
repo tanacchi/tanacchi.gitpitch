@@ -33,6 +33,6 @@ while True:
     src = parse(input_str)
 
     print("-"*10)
-    print("  {} ({})".format(src, type(src)))
+    print("  {} <{}>".format(src, type(src).__name__))
     print("-"*10)
     print()
