@@ -75,6 +75,16 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 (add1 x)  ;-> 42
 ```
 
+## sum-of-three
+```Scheme
+(define sum-of-three
+  (lambda (x y z)
+    (+ x (+ y z))))
+
+
+(sum-of-three 3 6 1)  ;-> 11
+```
+
 ### zero?
 ```Scheme
 (define zero?
@@ -113,6 +123,21 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 
 (define empty-list (quote ()))
 (null? empty-list)  ;-> True
+```
+
+### sum
+```Scheme
+(define sum
+  (lambda (list)
+    (if (null? list)
+      0
+      (+ (car list) (sum (cdr list))))))
+
+
+(sum (quote (1 2 3)))  ;-> 6
+
+(define x (quote (1 2 3 4 5 6 7 8 9 10)))
+(sum x)  ;-> 55
 ```
 
 ### length
