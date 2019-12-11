@@ -45,6 +45,8 @@ def read():
             print(">>" * depth, end="")
         elif source_str.strip() is "":
             continue
+        elif depth < 0:
+            raise RuntimeError("Syntax Error")
         else:
             break
     return parse(source_str)
