@@ -1,7 +1,10 @@
 # lt7
 
-## attention
-時間の都合上，変数スコープの概念は持たない設計になっています．
+## What is this?
+Python で実装された Lisp ライクなインタプリタ型言語．  
+理解のしすさのために，インクリメンタル開発をベースとした構成になっている．  
+テスト駆動開発と相性が良さそうだけど導入はしていない．  
+level15 の変数スコープは発表では間に合わないかもしれない．  
 
 ## primitives
 
@@ -50,7 +53,8 @@ level 10 | 関数定義 (add1, sum-of-three 実装)
 level 11 | 比較 (zero? 実装)
 level 12 | 分岐 (not 実装)
 level 13 | quote と list (null? 実装)
-level 14 | リスト操作 (sum, length,  reverse 実装)
+level 14 | リスト操作 (sum, length  実装)
+level 15 | 変数スコープ (reverse, range 実装)
 
 ## sample code
 ### arithmetic operation
