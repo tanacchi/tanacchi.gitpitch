@@ -49,8 +49,8 @@ level 09 | 関数呼び出し
 level 10 | 関数定義 (add1, sum-of-three 実装)
 level 11 | 比較 (zero? 実装)
 level 12 | 分岐 (not 実装)
-level 13 | quote と list (null?, length 実装)
-level 14 | リスト操作 (sum, reverse 実装)
+level 13 | quote と list (null? 実装)
+level 14 | リスト操作 (sum, length,  reverse 実装)
 
 ## sample code
 ### arithmetic operation
