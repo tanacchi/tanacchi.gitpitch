@@ -54,7 +54,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 
 ## sample code
 ### arithmetic operation
-```lisp
+```Scheme
 (+ 3 4)  ;-> 7
 
 (define x 42)
@@ -63,7 +63,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 ```
 
 ### add1
-```lisp
+```Scheme
 (define add1
   (lambda (x)
     (+ x 1)))
@@ -76,7 +76,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 ```
 
 ### zero?
-```lisp
+```Scheme
 (define zero?
   (lambda (x)
     (eq? x 0)))
@@ -89,7 +89,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 ```
 
 ### not
-```lisp
+```Scheme
 (define not
   (lambda (x)
     (if x #false
@@ -103,7 +103,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 ```
 
 ### null?
-```lisp
+```Scheme
 (define null?
   (lambda (x)
     (eq? x (quote ()))))
@@ -116,7 +116,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 ```
 
 ### length
-```lisp
+```Scheme
 (define length
   (lambda (x)
     (if (null? x) 
@@ -131,7 +131,7 @@ level 14 | リスト操作 (sum, length,  reverse 実装)
 ```
 
 ### reverse
-```lisp
+```Scheme
 (define reverse
   (lambda (x)
     (define reverse-aux
