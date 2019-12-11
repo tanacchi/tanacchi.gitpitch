@@ -122,7 +122,7 @@ level 15 | 変数スコープ (reverse, range 実装)
   (lambda (x)
     (eq? x (quote ()))))
 
-
+rack  
 (null? (quote (1 2 3)))  ;-> False
 
 (define empty-list (quote ()))
@@ -131,6 +131,8 @@ level 15 | 変数スコープ (reverse, range 実装)
 
 ### sum
 ```Scheme
+; requires 'null?'
+
 (define sum
   (lambda (list)
     (if (null? list)
@@ -146,6 +148,8 @@ level 15 | 変数スコープ (reverse, range 実装)
 
 ### length
 ```Scheme
+; requires 'null?', 'add1'
+
 (define length
   (lambda (x)
     (if (null? x) 
@@ -161,6 +165,8 @@ level 15 | 変数スコープ (reverse, range 実装)
 
 ### reverse
 ```Scheme
+; requires 'null?'
+
 (define reverse
   (lambda (x)
     (define reverse-aux
@@ -175,4 +181,21 @@ level 15 | 変数スコープ (reverse, range 実装)
 
 (define lst (quote (0 1 2 3 4 5 6 7 8 9)))
 (reverse lst)  ;-> (9 8 7 6 5 4 3 2 1 0)
+```
+
+### range
+```Scheme
+; requires 'zero?', 'sub1', 'reverse'
+
+(define range
+  (lambda (n)
+    (define range-aux
+      (lambda (n)
+        (if (zero? n)
+          (quote ())
+          (cons (sub1 n) (range-aux (sub1 n))))))
+    (reverse (range-aux n))))
+    
+
+(range 10)  ;-> (0 1 2 3 4 5 6 7 8 9)
 ```
