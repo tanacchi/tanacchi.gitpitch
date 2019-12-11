@@ -30,8 +30,8 @@ name | first appearance | example
 --- | --- | ---
 `+` | level 06 | `(+ 3 4)` -> `7`
 `-` | level 06 | `(- 8 5)` -> `3`
-`#true` | level 12 | `True`
-`#false` | level 12 | `False`
+`#true` | level 11 | `True`
+`#false` | level 11 | `False`
 
 ## level
 
