@@ -12,7 +12,7 @@ class Env(dict):
         elif self.outer != None:
             return self.outer.find(key)
         else:
-            raise KeyError("{} is not found.".format(key))  # Added
+            raise KeyError(f'{key} is not found.')  # Added
 
         
 global_env = Env()
