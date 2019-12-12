@@ -1,4 +1,5 @@
 from reader import read
+from copy import deepcopy  # Added
 
 
 class Env(dict):
@@ -17,7 +18,7 @@ class Env(dict):
         
 global_env = Env()
 global_env.update({
-    '+': lambda *args: args[0] + args[1],  # Modified
+    '+': lambda *args: args[0] + args[1],
     '-': lambda *args: args[0] - args[1],
     '#true':  True,
     '#false': False
@@ -26,7 +27,7 @@ global_env.update({
 def lambda_content(vargs, args, exprs, env):  # Modified
     new_env = Env(vargs, args, outer=env)
     for expr in exprs:
-        return_value = evaluate(expr, new_env)
+        return_value = evaluate(deepcopy(expr), new_env)
     return return_value
 
 def evaluate(src, env):  # Modified
