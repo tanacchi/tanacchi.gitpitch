@@ -49,7 +49,7 @@ level 06 | 加減算
 level 07 | 変数定義
 level 08 | 変数の参照
 level 09 | 関数呼び出し
-level 10 | 関数定義 (nil, add1, sum-of-three 実装)
+level 10 | 関数定義 (add1, sum-of-three 実装)
 level 11 | 比較 (zero? 実装)
 level 12 | 分岐 (not 実装)
 level 13 | quote と list (null? 実装)
@@ -64,16 +64,6 @@ level 15 | 変数スコープ (reverse, range 実装)
 (define x 42)
 (define y 31)
 (- x y)  ;-> 11
-```
-
-### nil
-```Scheme
-(define nil
-  (lambda ()
-    (quote ())))
-
-
-(nil)  ;-> ()
 ```
 
 ### add1
@@ -128,11 +118,9 @@ level 15 | 変数スコープ (reverse, range 実装)
 
 ### null?
 ```Scheme
-; requires 'nil'
-
 (define null?
   (lambda (x)
-    (eq? x (nil))))
+    (eq? x (quote ()))))
 
 rack  
 (null? (quote (1 2 3)))  ;-> False
@@ -160,7 +148,7 @@ rack
 
 ### length
 ```Scheme
-; requires 'nil', 'null?', 'add1'
+; requires 'null?', 'add1'
 
 (define length
   (lambda (x)
@@ -169,7 +157,7 @@ rack
       (add1 (length (cdr x))))))
 
 
-(length (nil))  ;-> 0
+(length (quote ()))  ;-> 0
 
 (define lst (quote (0 1 2 3 4 5 6 7 8 9)))
 (length lst)  ;-> 10
@@ -177,7 +165,7 @@ rack
 
 ### reverse
 ```Scheme
-; requires 'nil', 'null?'
+; requires 'null?'
 
 (define reverse
   (lambda (x)
@@ -186,10 +174,10 @@ rack
         (if (null? x)
           result
           (reverse-aux (cdr x) (cons (car x) result)))))
-    (reverse-aux x (nil))))
+    (reverse-aux x (quote ()))))
 
 
-(reverse (nil))  ;-> ()
+(reverse (quote ()))  ;-> ()
 
 (define lst (quote (0 1 2 3 4 5 6 7 8 9)))
 (reverse lst)  ;-> (9 8 7 6 5 4 3 2 1 0)
@@ -197,14 +185,14 @@ rack
 
 ### range
 ```Scheme
-; requires 'nil', 'zero?', 'sub1', 'reverse'
+; requires 'zero?', 'sub1', 'reverse'
 
 (define range
   (lambda (n)
     (define range-aux
       (lambda (n)
         (if (zero? n)
-          (nil)
+          (quote ())
           (cons (sub1 n) (range-aux (sub1 n))))))
     (reverse (range-aux n))))
     
