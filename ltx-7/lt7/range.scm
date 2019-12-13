@@ -1,6 +1,6 @@
 (define zero?
   (lambda (x)
-    (eq? x (quote ()))))
+    (eq? x 0))))
 
 (define sub1
   (lambda (x)
