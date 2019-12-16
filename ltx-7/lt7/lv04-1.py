@@ -1,4 +1,4 @@
-def tokenize(input_str):
+def lex(input_str):
     try:
         return int(input_str)
     except:

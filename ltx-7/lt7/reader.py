@@ -1,6 +1,6 @@
 import re
 
-def __tokenize(target):
+def __lex(target):
     try: 
         return int(target)
     except ValueError:
@@ -16,7 +16,7 @@ def __make_list(src, index):
         if match != None:
             detected_token = match.group(0)
             index += len(detected_token)
-            result.append(__tokenize(detected_token))
+            result.append(__lex(detected_token))
         elif src[index] == "(":
             sub_result = __make_list(src, index + 1)
             result.append(sub_result['list'])

@@ -42,8 +42,8 @@ level | description
 --- | ---
 level 01 | あいさつ
 level 02 | プロンプトとループ
-level 03 | トークナイザ
-level 04 | パーサ
+level 03 | 字句解析器
+level 04 | 構文解析器
 level 05 | 評価器(evaluate 関数)
 level 06 | 加減算
 level 07 | 変数定義

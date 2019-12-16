@@ -1,4 +1,4 @@
-def tokenize(input_str):
+def lex(input_str):
     try:
         return int(input_str)
     except:
@@ -10,7 +10,7 @@ def parse(input_str):
     new_token = ""
     for ch in input_str:
         if ch == ' ':  # Modified
-            new_token = tokenize(new_token) # Step 2
+            new_token = lex(new_token) # Step 2
             result.append(new_token)
             new_token = ""
         elif ch == '(':
@@ -20,7 +20,7 @@ def parse(input_str):
         else:
             new_token += ch
     else:
-        result.append(tokenize(new_token)) # Step 2
+        result.append(lex(new_token)) # Step 2
         return result
 
 

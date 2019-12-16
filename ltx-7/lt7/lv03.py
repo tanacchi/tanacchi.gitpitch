@@ -1,4 +1,4 @@
-def tokenize(input_str):
+def lex(input_str):
     try:
         return int(input_str)
     except:
@@ -11,7 +11,7 @@ print("Welcome to lt7 !!\n")
 
 while True:
     input_str = input("> ")
-    token = tokenize(input_str)
+    token = lex(input_str)
 
     print("-"*10)
     print("  {} <{}>".format(token, type(token).__name__))
