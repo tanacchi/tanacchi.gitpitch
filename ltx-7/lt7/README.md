@@ -122,7 +122,7 @@ level 15 | 変数スコープ (reverse, range 実装)
   (lambda (x)
     (eq? x (quote ()))))
 
-rack  
+
 (null? (quote (1 2 3)))  ;-> False
 
 (define empty-list (quote ()))

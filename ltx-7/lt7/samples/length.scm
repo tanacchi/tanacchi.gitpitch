@@ -1,6 +1,8 @@
+(define nil (quote ()))
+
 (define null?
   (lambda (x)
-    (eq? x (quote ()))))
+    (eq? x nil)))
 
 (define add1
   (lambda (x)

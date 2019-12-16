@@ -1,6 +1,6 @@
 (define null?
   (lambda (x)
-    (eq? x (quote ()))))
+    (eq? x nil)))
 
 (define reverse-aux 
   (lambda (x result) 
@@ -10,4 +10,4 @@
 
 (define reverse 
   (lambda (y) 
-    (reverse-aux y (quote ()))))
+    (reverse-aux y nil)))
