@@ -1,4 +1,4 @@
-# ゲーム開発で強くなろう！
+# なんちゃって言語開発入門
   produced by **tanacchi**
 
 ---
@@ -7,30 +7,38 @@
 
 ---
 
-@snap[east]
-<img src="rogue_game/assets/tanacchi.jpeg" />
-@snapend
+<!-- @snap[east] -->
+<!-- <img src="rogue_game/assets/tanacchi.jpeg" /> -->
+<!-- @snapend -->
 
-@snap[west]
-<br>
-*tanacchi* <br><br>
+<!-- @snap[west] -->
+<!-- <br> -->
+<!-- *tanacchi* <br><br> -->
 
-総シス B4  
+<!-- 総シス B4   -->
 
-@fa[twitter icon-size2] *q111026d*　@fa[github  icon-size2] *tanacchi*  
-@snapend
-
----
-
-俺の自己紹介なんてどうでもいい
+<!-- @fa[twitter icon-size2] *q111026d*　@fa[github  icon-size2] *tanacchi*   -->
+<!-- @snapend -->
 
 ---
 
-プログラミング楽しんでるかい？
+#### 今日の講義資料
+
+<img src="ltx-7/assets/my-twitter.png">
 
 ---
 
-楽しんでる人〜？
+ついでにフォローしといてください
+
+---
+
+#### 今日の講義資料（本物）
+
+<img src="ltx-7/assets/lt7-readme.png">
+
+---
+
+# ATTENTION
 
 ---
 
