@@ -4,9 +4,9 @@ from reader import read
 dispatch_table = {}
 
 def evaluate(src):
-    if isinstance(src, str):
+    if isinstance(src, str):  # Added
         return dispatch_table[src]
-    elif not isinstance(src, list):  # Added
+    elif not isinstance(src, list):
         return src
     elif src[0] == '+':
         return src[1] + src[2]
