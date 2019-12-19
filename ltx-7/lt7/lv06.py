@@ -2,7 +2,9 @@ from reader import read
 
 
 def evaluate(src):
-    if src[0] == '+':
+    if not isinstance(src, list):  # Step 3
+        return src
+    elif src[0] == '+':
         return src[1] + src[2]
     elif src[0] == '-':
         return src[1] - src[2]  # Step 2
