@@ -1,19 +1,19 @@
 from reader import read
 
 
-dispatch_table = {
+env = {
     '+': lambda *args: args[0] + args[1],
     '-': lambda *args: args[0] - args[1]
 }
 
 def evaluate(src):
     if isinstance(src, str):
-        return dispatch_table[src]
+        return env[src]
     elif not isinstance(src, list):
         return src
     elif src[0] == 'define':
         key, value = src[1], evaluate(src[2])
-        dispatch_table[key] = value
+        env[key] = value
     elif src[0] == 'lambda':  # Added
         vargs, exprs = src[1], src[2:]
         return lambda *args: \ 

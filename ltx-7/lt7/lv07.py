@@ -1,7 +1,7 @@
 from reader import read
 
 
-dispatch_table = {}  # Added
+env = {}  # Added
 
 def evaluate(src):
     if not isinstance(src, list):
@@ -15,7 +15,7 @@ def evaluate(src):
         #  value = src[2]  # Step 1
         #  value = evaluate(src[2])  # Step 2
         key, value = src[1], evaluate(src[2])  # Step 3
-        dispatch_table[key] = value
+        env[key] = value
     else:
         return src
 
@@ -29,6 +29,6 @@ while True:
 
     print("-"*10)
     print("  {}  <{}>".format(result, type(result).__name__))
-    print("[Debug] dispatch_table: ", dispatch_table)  # Added
+    print("[Debug] env: ", env)  # Added
     print("-"*10)
     print()
